@@ -60,7 +60,7 @@ p {
   display: flex;
 }
 
-.nav__header:not(:last-child) {
+.header__nav-link:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -77,7 +77,7 @@ p {
 	color: var(--black-color);
   }
 
-.container__nav{
+.header__container{
     display: flex;
     align-items: center;
     justify-content: space-between;
