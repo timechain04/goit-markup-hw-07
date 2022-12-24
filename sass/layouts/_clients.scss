@@ -1,0 +1,48 @@
+
+.client{
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  
+  .client__list{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .client__items{
+    width: 170px;
+    height: 90px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  
+
+  
+  .client__items-box{
+    width: 170px;
+    height: 90px;
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #afb1b8;
+    color: #afb1b8;
+    background-color: #fff;
+    padding: 16px 32px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .client__items:hover,
+  .client__items:focus {
+    color: var(--blue-color);
+    border-color:var(--blue-color);
+  }
+  .client__items-box:hover,
+  .client__items-box:focus {
+    color:var(--blue-color);
+    border-color: var(--blue-color);
+  }
